@@ -27,21 +27,39 @@ This project combines modern deep learning techniques with a user-friendly inter
 ## 📦 Folder Structure
 
 3D-Anomaly-Detection---Web-App/
-├── app/ # Main web application (Next.js)
-├── components/ # Reusable React components
-├── hooks/ # Custom React hooks
-├── lib/ # Utility functions & libraries
-├── models/ # (Optional) Pretrained or custom models
-├── public/ # Static assets (images, icons, etc.)
-├── styles/ # CSS/Tailwind files
-├── utils/ # Python utility scripts
-├── datasets/ # (Optional) Example/test datasets
-├── checkpoints/ # (Optional) Model checkpoints (ignored by default)
-├── app.py, infer.py # Core backend scripts for inference
-├── package.json # Node.js dependencies
-├── requirements.txt # Python dependencies (if any)
+├── app/
+├── components/
+├── hooks/
+├── lib/
+├── models/
+├── public/
+├── styles/
+├── utils/
+├── datasets/
+├── checkpoints/
+├── app.py
+├── infer.py
+├── package.json
+├── requirements.txt
 ├── .gitignore
 └── README.md
+
+
+- `app/` - Main web application (Next.js)
+- `components/` - Reusable React components
+- `hooks/` - Custom React hooks
+- `lib/` - Utility functions & libraries
+- `models/` - (Optional) Pretrained or custom models
+- `public/` - Static assets (images, icons, etc.)
+- `styles/` - CSS/Tailwind files
+- `utils/` - Python utility scripts
+- `datasets/` - (Optional) Example/test datasets
+- `checkpoints/` - (Optional) Model checkpoints (ignored by default)
+- `app.py`, `infer.py` - Core backend scripts for inference
+- `package.json` - Node.js dependencies
+- `requirements.txt` - Python dependencies (if any)
+- `.gitignore`  
+- `README.md`
 
 
 ## 🛠️ Tech Stack
