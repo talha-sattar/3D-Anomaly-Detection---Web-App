@@ -1,1 +1,1 @@
-# 3D-Anomaly-Detection---Web-App
+# 3D-Anomaly Detection - Web-App
