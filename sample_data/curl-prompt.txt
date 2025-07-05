@@ -1,0 +1,4 @@
+curl -X POST http://localhost:5000/api/infer \
+  -F "rgb_file=@/sample_data/001.png" \
+  -F "tiff_file=@/sample_data/001.tiff" \
+  -F "class_name=cable_gland"
